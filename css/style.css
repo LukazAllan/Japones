@@ -6,6 +6,10 @@ div.title {
 div{
     color: whitesmoke;
 }
+div.inner{
+    position: static;
+    align-items: center;
+}
 body{
     background-color: #202324 !important;
 }
