@@ -11,10 +11,15 @@ div.inner{
     align-items: center;
 }
 body{
-    background-color: #202324 !important;
+    /*background-color: #202324 !important;*/
+    font-size: 22%;
 }
 html{
-    background-color: #202324 !important;
+    /*background-color: #202324 !important;*/
+}
+a{
+    font-family: 'Montserrat';/*
+    font-size: 22px;*/
 }
 .resp {
     font-size: 25px;
