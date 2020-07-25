@@ -5,10 +5,12 @@
     <meta name="viewport" content="width=salve, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Japa do dia</title>
-    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
-    <link rel="stylesheet" href="css/style.css"><!--
-    <link rel="stylesheet" href="adminlte.min.css">-->
-    <link rel="stylesheet" href="bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel='stylesheet'>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap-grid.min.css">
+    <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
     <script src="js/data.js"></script>
     <script src="js/main.js"></script>
 <body>
@@ -22,19 +24,23 @@
           </ul>
         </div>
     </nav>
-    <!--
-    <script src="/popper.min.js"></script>
-    <script src="/jquery-3.5.1.slim.min.js"></script>-->
-    <script src="/bootstrap.min.js"></script>
+    <div class="card-group">
+      <div class="card text-white bg-danger mb-3">
+        <div class="card-header">Estrutura</div>
+        <div class="card-body">
+          <div id="gram" class="resp"><div class="resp"><div class="inner">Pressione "Gerar" ou "Novo"</div></div></div>
+          <a href="#" class="btn btn-success" onclick="est()">Novo</a>
+        </div>
+      </div>
+      <div class="card text-white bg-dark mb-3">
+        <div class="card-header">Palavras</div>
+        <div class="card-body">
+          <div id="pls"><div class="resp"><div class="inner">Pressione "Gerar" ou "Novo"</div></div></div>
+          <a href="#" class="btn btn-success" onclick="pal()">Novo</a>
+        </div>
+      </div>
+    </div>
     <button type="button" class="btn btn-danger" onclick="tudo()">Gerar</button>
-    <div id="est">
-        <div id="title" class="title" onclick="est()">Estrutura</div>
-        <div id="gram" class="resp"></div>
-    </div>
-    <div id="pal">
-        <div class="title" onclick="pal()">Palavras</div>
-        <div id="pls"></div>
-    </div>
     <script>
         //choose();
     </script>
