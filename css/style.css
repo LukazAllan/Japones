@@ -11,11 +11,11 @@ div.inner{
     align-items: center;
 }
 body{
-    /*background-color: #202324 !important;*/
+    background-color: #202324 !important;
     font-size: 22%;
 }
 html{
-    /*background-color: #202324 !important;*/
+    background-color: #202324 !important;
 }
 a{
     font-family: 'Montserrat';/*
@@ -26,24 +26,7 @@ a{
     font-family: Arial, Helvetica, sans-serif;
     align-self: center;
 }
-#est {
-    width: 100%;
-    height: 49%;
-    background: red;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
-}
-#pal {
-    width: 100%;
-    height: 49%;
-    background: #0c18c4;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
-}
+
 fg:before {
     content: attr(t);
     display: block;

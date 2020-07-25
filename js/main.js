@@ -1,6 +1,6 @@
 function tudo(){
     window.document.getElementById("gram").innerText = data.estruturas[Math.floor(Math.random() * data.estruturas.length)];
-    let rd = Math.floor(Math.random() * 4);
+    let rd = 1;//Math.floor(Math.random() * 4);
     let plv = [data.palavras[Math.floor(Math.random() * data.palavras.length)],data.palavras[Math.floor(Math.random() * data.palavras.length)],data.palavras[Math.floor(Math.random() * data.palavras.length)]]
     if (rd === 1){
         window.document.getElementById("pls").innerHTML = `<div class="resp"><div class="inner"><ruby onmousedown="sig()" onmouseup="kanji()">${plv[0][0]}<rt>${plv[0][1]}</rt></ruby></div><div class="inner"><p>${plv[0][2]}</p></div></div>`;
