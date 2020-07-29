@@ -13,8 +13,10 @@ function tudo(){
 }
 function est() {
     window.document.getElementById("gram").innerText = data.estruturas[Math.floor(Math.random() * data.estruturas.length)];
+    window.document.getElementById("pls").innerHTML =　'';
 }
 function pal() {
+    window.document.getElementById("gram").innerText = '';
     let rd = 1; //Math.floor(Math.random() * 3) + 1;
     let plv = [data.palavras[Math.floor(Math.random() * data.palavras.length)],data.palavras[Math.floor(Math.random() * data.palavras.length)],data.palavras[Math.floor(Math.random() * data.palavras.length)]]
     if (rd === 1){

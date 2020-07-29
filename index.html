@@ -7,19 +7,23 @@
     <title>Japa do dia</title>
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel='stylesheet'>
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="bootstrap/css/bootstrap-grid.min.css">
-    <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
-    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap-grid.min.css">
     <script src="js/data.js"></script>
     <script src="js/main.js"></script>
 <body>
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="node_modules/popper.js/dist/popper.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
     <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
         <a class="navbar-brand" href="#">Gerador de Frases</a>
-        <div class="collapse navbar-collapse">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav mr-auto">
             <li class="nav-item"><a href="#" class="nav-link"><ruby>全部<rt>ぜんぶ</rt></ruby></a></li>
-            <li class="nav-item"><a href="#" class="nav-link">JLPT N5</a></li>
+            <li class="nav-item"><a href="jlptn5.html" class="nav-link">JLPT N5</a></li>
             <li class="nav-item"><a href="#" class="nav-link">JLPT N4</a></li>
           </ul>
         </div>
